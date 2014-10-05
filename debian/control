@@ -1,0 +1,12 @@
+Source: statsprocessor
+Maintainer: Jeremi Gosney <jgosney@stricture-group.com> 
+Section: misc
+Priority: important
+Standards-Version: 3.9.2
+Build-Depends: p7zip-full, make 
+
+Package: statsprocessor
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: standalone implementation of oclHashcat markov mode
+ Statsprocessor is a high-performance word-generator based on per-position markov-attack packed into a single stand-alone binary.
